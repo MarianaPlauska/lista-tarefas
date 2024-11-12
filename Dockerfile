@@ -11,4 +11,4 @@ COPY build/libs/br.com.mariana-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
 # Exponha a porta em que a aplicação estará rodando
-EXPOSE 8080
+EXPOSE 8090
